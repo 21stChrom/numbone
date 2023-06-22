@@ -1,0 +1,136 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+  
+  float: right;
+  display: grid;
+  overflow: hidden;
+  justify-content: space-evenly;
+  height: 93%;
+  width: 98%;
+  box-shadow: 6px 6px 14px px;
+  border: 3px solid;
+  border-radius: 5%;
+  background: linear-gradient(black 33%, rgb(132, 0, 255) 77%, black);
+}
+.pip {
+ position: absolute;
+  left: 82.5%;
+  margin-top: 2px;
+ border-radius: 15%; 
+height: 65px;
+width: 3.5rem;
+}
+.l{
+  align-items: center;
+margin: 0px 0px 0px 0px;
+}
+
+
+img{
+  border-radius: 50%;
+}
+.img:hover{
+
+  cursor: pointer;
+ 
+}
+.img{
+  background-color: transparent;
+ z-index: 1;
+}
+a:hover {
+color: green;
+}
+a:active{
+  color: orange;
+}
+a:visited{
+  color: red;
+}
+.line1{
+  border: 1px solid black;
+}
+.line1{
+  display: inline;
+  padding-left: 0px;
+  border: 1px solid black;
+  height: 1%;
+  width: 10px;
+}
+.cage{
+  top: 2rem;
+  left: 2.5rem;
+  position: fixed;
+  border-radius: 66.5%;
+  padding: 10px 10px 10px 10px;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+    text-align: center; 
+  display: flex;
+  border: 3px solid lightsteelblue;
+}
+/*
+.Pmack1 {
+  margin-top: 2px;
+  justify-content: ;
+  text-align: ;
+  animation: Pmack1 9s linear alternate-reverse infinite;
+  transform-origin: 50%;
+  color: red;
+}
+*/
+.Pmacktop {
+  transform: rotate(180);
+  width: fit-content;
+  justify-content:center;
+  animation: Pmack 1s linear reverse infinite;
+  transform-origin: 50% 50%;
+  color: chartreuse;
+}
+.Pmack {
+  width: fit-content;
+  text-align: center;
+  animation: Pmack 60s linear  infinite;
+  transform-origin: 50% 50%;
+  color: green;
+}
+@keyframes Pmack {
+  0% {
+transform: rotate(0deg);
+  }
+  100% {
+transform: rotate(360deg);
+  }
+}
+.l {
+  padding: 3px 3px 3px 3px;
+  margin-top: -1px;
+  justify-content: right;
+  text-align: center;
+  animation: l --60ms line infinite;
+  transform-origin: 50% 50%;
+  color: red;
+}
+@keyframes l {
+  0% {
+    color: red;
+transform: rotate( 0deg);
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+transform: rotate(360deg);
+  }
+
+}
+audio {
+  width: 50%;
+
+}
